@@ -20,5 +20,12 @@
   "homepage": "https://github.com/ankitadasz/NAMASTE_REACT#readme",
   "devDependencies": {
     "parcel": "^2.15.4"
-  }
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserslist":[
+    "last 2 chrome version"
+  ]
 }
