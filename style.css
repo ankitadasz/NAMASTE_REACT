@@ -1,3 +1,132 @@
-#heading{
-    color: blueviolet;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(203, 200, 200);
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 0px 20px;
+  background-color: rgb(239, 236, 236);
+}
+.logo-img {
+  width: 50px;
+  height: 50px;
+  mix-blend-mode: multiply;
+}
+.Nav-section ul {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  padding-right: 20px;
+}
+.Nav-section ul li {
+  list-style-type: none;
+  padding: 20px;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+.Nav-section ul li span {
+  display: inline-block;
+  position: relative;
+}
+.Nav-section ul li span:hover {
+  cursor: pointer;
+  color: rgb(73, 73, 73);
+}
+.Nav-section ul li span::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 0px;
+  bottom: -8px;
+  width: 0px;
+  height: 2px;
+  background-color: #dcc514;
+  transition: width 0.3s ease;
+}
+.Nav-section ul li span:hover::after {
+  width: 100%;
+}
+
+.Nav-section ul .btn-container {
+  margin-left: 40px;
+}
+.Nav-section ul button {
+  width: 100px;
+  height: 50px;
+  margin: 5px 0px 0px 15px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 18px;
+  border-radius: 30px;
+  background-color: whitesmoke;
+  transition: all 0.3s ease;
+}
+.Nav-section ul button:hover {
+  background-color: #dc143c;
+  color: whitesmoke;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+.card-container {
+  width: 250px;
+  height: 350px;
+  margin: 30px;
+  padding: 10px 10px 15px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  position: relative;
+}
+.card-container:hover {
+  border: 1px solid #e0e0e6;
+  cursor: pointer;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+  width: 100%;
+  height: 50%;
+}
+.Hero-section {
+  width: fit-content;
+  padding: 20px;
+  margin: 30px;
+  border: 1px solid rgb(223, 217, 217);
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.food-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar {
+  width: 30vw;
+  height: 5vh;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
+.search-icon {
+  width: 3vw;
+  height: 5vh;
+  border-radius: 20px;
+  font-size: 18px;
+}
+.search-icon:hover {
+  background-color: #dcc514;
+  color: white;
 }

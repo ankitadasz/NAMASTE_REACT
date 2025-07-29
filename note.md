@@ -192,3 +192,9 @@ function MyComponent() {
 
 - **JSX is what makes your React code readable**.
 - It allows you to write UI code in a way that closely resembles HTML, which is familiar and intuitive.
+
+
+passing dynamic data into component is known as props(properties)
+when we have to passin some data dynamically to component we use props\
+
+confict driven ui-our website is driven by conflicts
