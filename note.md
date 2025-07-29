@@ -145,3 +145,50 @@ Thanks to **Parcel**, our app is highly optimized for both development and produ
 
 ✅ **Conclusion:**  
 The combination of **smart caching**, **code splitting**, **image & code optimizations**, and **instant updates** makes our app **blazingly fast**, both in development and production.
+
+## React Elements and JSX
+
+- At the end of the day, **React elements are just JavaScript objects**.
+- To make element creation easier, Facebook developers introduced **JSX**.
+
+### What is JSX?
+
+- **JSX (JavaScript XML)** is a syntax extension for JavaScript that **looks like HTML or XML**.
+- JSX makes a developer's life easier by making the code **more readable and expressive**.
+- **JSX is not HTML inside JavaScript** — it's **HTML-like syntax** that gets **transpiled** (converted) to JavaScript before it runs in the browser.
+- The transpilation is handled by tools like **Parcel and Babel**.
+
+### JSX vs React
+
+- **JSX and React are not the same**:
+  - React is a library.
+  - JSX is a syntax used with React to describe UI structure.
+- JSX is ultimately **converted into React element objects**, which React uses to render the UI.
+
+### Attributes in JSX
+
+- JSX uses **camelCase** for attributes (e.g., `className` instead of `class`, `onClick` instead of `onclick`).
+
+---
+
+## React Components
+
+### Types of Components
+
+1. **Class-based Components** (Old Way)
+2. **Functional Components** (New and Preferred Way)
+
+- A **functional component** is just a function that **returns JSX or a React element**.
+
+```js
+function MyComponent() {
+  return <h1>Hello, world!</h1>;
+}
+```
+
+---
+
+## What Makes React Code Readable?
+
+- **JSX is what makes your React code readable**.
+- It allows you to write UI code in a way that closely resembles HTML, which is familiar and intuitive.
